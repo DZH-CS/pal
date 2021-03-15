@@ -6,6 +6,10 @@ ubuntu-gnome-16.04-desktop-amd64
 # Prerequisites
 sudo apt install gcc-multilib
 
+# Book
+[code](https://github.com/ELWIN-MAO/pal)
+[book](https://github.com/IammyselfYBX/GAS-Professional-Assembly-Language)
+
 # Command
 ```bash
 $ bash
