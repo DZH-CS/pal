@@ -9,7 +9,7 @@ _start:
    nop
    movl $24420, %ecx
    movw $350, %bx
-   movb $100, %eax
+   mov $100, %eax
    pushl %ecx
    pushw %bx
    pushl %eax
