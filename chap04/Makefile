@@ -18,6 +18,6 @@ $(cpuid2): cpuid2.o
 $(cpuid2-main): cpuid2-main.s
 	gcc $< -o $@
 
-clean:
-	rm -rf $(objects) $(cpuid)  $(cpuid2) $(cpuid2-main)
+clear:
+	@rm -rf $(objects) $(cpuid)  $(cpuid2) $(cpuid2-main)
 
