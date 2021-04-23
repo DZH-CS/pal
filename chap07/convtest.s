@@ -5,7 +5,7 @@ value1:
 value2:
    .int 1, -435, 0, -25
 .section .bss
-data:
+#data:
    .lcomm data, 16
 .section .text
 .globl _start
