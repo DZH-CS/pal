@@ -9,6 +9,6 @@ $(BOBJS): %.o: %.c
 	gcc -c $< -o $@
 $(BELFS): % : %.o
 	gcc $< -o $@
-clear:
+clean:
 	@rm -rf $(OBJS) $(COBJS) $(ELFS) $(CELFS) $(BOBJS) $(BELFS)
 

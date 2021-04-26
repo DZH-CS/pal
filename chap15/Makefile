@@ -8,6 +8,6 @@ $(BOBJS): %.o: %.c
 	gcc -c $< -o $@
 $(ELFS): %: %.o
 	gcc $^ -o $@
-clear:
+clean:
 	@rm -rf *$(BOBJS) $(OBJS) $(ELFS)
 

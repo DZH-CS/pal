@@ -14,6 +14,6 @@ $(COBJS): %.o: %.s
 	as $< -o $@
 $(CELFS): % : %.o
 	ld -lc -dynamic-linker /lib/ld-linux.so.2 $< -o $@
-clear:
+clean:
 	@rm -rf $(OBJS) $(COBJS) $(ELFS) $(CELFS)
 

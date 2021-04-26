@@ -28,6 +28,6 @@ stringtest: stringtest.o cpuidfunc.o
 	gcc $^ -o $@
 multtest: multtest.o greater.o
 	gcc $^ -o $@
-clear:
-	@rm -rf *$(BOBJS) $(OBJS) $(ELFS)
+clean:
+	@rm -rf $(BOBJS) $(OBJS) $(ELFS)
 

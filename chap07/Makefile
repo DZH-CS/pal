@@ -7,6 +7,6 @@ $(OBJS): %.o: %.s
 	as $< -o $@
 $(ELFS): % : %.o
 	ld $< -o $@
-clear:
+clean:
 	@rm -rf $(OBJS) $(ELFS)
 
